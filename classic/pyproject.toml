@@ -104,7 +104,7 @@ tenacity = "^8.2.2"
 watchdog = "^6.0.0"
 
 # Testing (needed for direct_benchmark challenge evaluation)
-pytest = "^8.0"
+pytest = ">=8,<10"
 
 
 [tool.poetry.group.dev.dependencies]
